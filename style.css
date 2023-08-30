@@ -1,3 +1,6 @@
+.menu {
+  margin-top: -30px;
+}
 .orange {
   background-color: rgb(248, 104, 68);
 }
@@ -29,7 +32,7 @@
   background-position: center;
 }
 .news-section-title {
-  color: rgb(41, 41, 116);
+  color: rgb(41, 41, 85);
 }
 .news-section a {
   text-decoration: none;
@@ -37,6 +40,12 @@
 }
 .news-section-2nd-row h6 {
   color: orangered;
+}
+.first-footer {
+  background-color: rgb(41, 41, 85);
+}
+.footer {
+  background-color: rgb(17, 17, 45);
 }
 .borderr {
   border: 2px solid black;
