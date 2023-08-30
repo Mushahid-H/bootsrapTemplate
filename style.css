@@ -1,0 +1,25 @@
+.orange {
+  background-color: rgb(248, 104, 68);
+}
+.orange-light {
+  background-color: rgb(255, 126, 93);
+}
+.picSection {
+  background-image: url('./pic1.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotatey(180deg);
+}
+.heading {
+  transform: rotateY(180deg);
+}
+.picSection-height {
+  height: 20rem;
+}
+.picSection-padding {
+  padding-left: 100px;
+}
+.borderr {
+  border: 2px solid black;
+}
