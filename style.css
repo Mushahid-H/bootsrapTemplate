@@ -15,11 +15,38 @@
   transform: rotateY(180deg);
 }
 .picSection-height {
-  height: 20rem;
+  min-height: 20rem;
 }
 .picSection-padding {
   padding-left: 100px;
 }
+
+.mobile-image {
+  min-height: 320px;
+  background-image: url('./mobile.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.news-section-title {
+  color: rgb(41, 41, 116);
+}
+.news-section a {
+  text-decoration: none;
+  color: orangered;
+}
+.news-section-2nd-row h6 {
+  color: orangered;
+}
 .borderr {
   border: 2px solid black;
+}
+@media screen and (max-width: 576px) {
+  .heading h4 {
+    font-size: medium;
+  }
+  .heading .row,
+  h4 {
+    width: fit-content;
+  }
 }
